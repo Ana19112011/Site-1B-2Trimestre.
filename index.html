@@ -3,47 +3,58 @@ O Melhor Bolo de Cenoura com Chocolate.
 Venha Aprender a Receita.
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Meu blog</title>
-<style>
-    header{
-        background-color: rgb(248, 248, 249);
-        color: rgba(6, 20, 71, 0.988);
-        text-align: center;
-        max: width 800px;
-        margin: 0 auto;
-        border: 5px solid rgb(8, 1, 41);
-        padding: 16px;
-    }
-    main{
-        background-color: rgb(226, 226, 238);
-        color: #081556;
-        text-align: center;
-        max: width 800px;
-        margin: 0 auto;
-        border: 5px solid rgb(8, 1, 41);
-        padding: 16px;
-    }
-    img{
-         width: 80px;
-         height: 80px;
-    }
 
-</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu blog</title>
+    <style>
+        header {
+            background-color: rgb(248, 248, 249);
+            color: rgba(6, 20, 71, 0.988);
+            text-align: center;
+            max: width 800px;
+            margin: 0 auto;
+            border: 5px solid rgb(8, 1, 41);
+            padding: 16px;
+        }
+
+        main {
+            background-color: rgb(226, 226, 238);
+            color: #081556;
+            text-align: center;
+            max: width 800px;
+            margin: 0 auto;
+            border: 5px solid rgb(8, 1, 41);
+            padding: 16px;
+            display: flex;
+        }
+
+        img {
+            width: 80px;
+            height: 80px;
+        }
+        .artigo-autor{
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <h1>O Melhor Bolo de Cenoura com Chocolate.</h1>
         <p> Venha se apaixonar pelo melhor bolo.</p>
-</header>
+    </header>
 
-<main>
-    <img src="imagem-blog.png" alt=""Mesa de madeira aconchegante com três bolos caseiros (chocolate com frutas vermelhas, nozes e limão com glacê) e o título 'Clube de Receitas' no topo."">
-    <h2>Meu primeiro post</h2>
-    <p>Seja Bem Vindo ao clube de receitas. Aqui irei compartilhar as receitas.</p>
-    <p>Por: Ana Beatriz Marinho</p>
-</main>
+    <main>
+        <img src="imagem-blog.png" alt="" Mesa de madeira aconchegante com três bolos caseiros (chocolate com frutas
+            vermelhas, nozes e limão com glacê) e o título 'Clube de Receitas' no topo."">
+        <div>
+            <h2>Meu primeiro post</h2>
+            <p>Seja Bem Vindo ao clube de receitas. Aqui irei compartilhar as receitas.</p>
+            <p class="artigo-autor">Por: Ana Beatriz Marinho da Silva</p>
+        </div>
+    </main>
 </body>
+
 </html>
